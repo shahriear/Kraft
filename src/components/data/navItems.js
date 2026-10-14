@@ -11,7 +11,7 @@ const navItems = [
     label: 'Portfolio Layouts',
     links: [
       { name: 'Portfolio', path: '/portfolio' },
-      { name: 'Grid', path: '/grid' },
+      { name: 'Grid', path: '/portfoliogrid' },
     ],
   },
   {

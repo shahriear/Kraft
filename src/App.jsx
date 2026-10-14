@@ -8,12 +8,16 @@ import {
 import Home from './pages/Home';
 import MainLayout from './Layout/MainLayout';
 import About from './pages/About';
+import Portfolio from './components/PortfolioLayout/Portfolio';
+import Portfolio_grid from './components/PortfolioLayout/Portfolio_grid';
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<MainLayout />}>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/portfoliogrid" element={<Portfolio_grid />} />
       </Route>,
     ),
   );
