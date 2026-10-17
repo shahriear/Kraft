@@ -5,6 +5,7 @@ import About_items from '../components/About/About_items'
 import Education from '../components/About/Education'
 
 const About = () => {
+  
   return (
     <div>
       <Banner />
