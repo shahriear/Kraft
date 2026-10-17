@@ -29,13 +29,13 @@ const Portfolio_grid = () => {
           </a>
         </li>
       </ul>
-      <div className="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-7">
-        <PortfolioGrid_items img="/pic-2.png" />
-        <PortfolioGrid_items img="/pic-1.png" />
-        <PortfolioGrid_items img="/pic-3.png" />
-        <PortfolioGrid_items img="/pic-4.png" />
-        <PortfolioGrid_items img="/pic-9.png" />
-        <PortfolioGrid_items img="/pic-5.png" />
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pb-20">
+        <img src="/pic-4.png" alt="Project 4" className="w-full h-auto" />
+        <img src="/pic-5.png" alt="Project 5" className="w-full h-auto" />
+        <img src="/pic-6.png" alt="Project 6" className="w-full h-auto" />
+        <img src="/pic-7.png" alt="Project 7" className="w-full h-auto" />
+        <img src="/pic-8.png" alt="Project 8" className="w-full h-auto" />
+        <img src="/pic-9.png" alt="Project 9" className="w-full h-auto" />
       </div>
     </section>
   );

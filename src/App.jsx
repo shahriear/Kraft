@@ -10,6 +10,7 @@ import MainLayout from './Layout/MainLayout';
 import About from './pages/About';
 import Portfolio from './components/PortfolioLayout/Portfolio';
 import Portfolio_grid from './components/PortfolioLayout/Portfolio_grid';
+import PortfolioSingle from './pages/PortfolioSingle';
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/portfoliogrid" element={<Portfolio_grid />} />
+        <Route path="/portfolioSingle" element={<PortfolioSingle />} />
       </Route>,
     ),
   );
