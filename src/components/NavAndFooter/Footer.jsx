@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="text-white text-center border-t	pt-9	border-gray-800	">
-        © 2020 CaliberThemes
+        © 2026 CaliberThemes || powerd by <span className="text-cyan-400">Shahriear Shuvo</span>
       </p>
     </footer>
   );
