@@ -18,7 +18,9 @@ import BlogDetails from './components/Blog/BlogDetails';
 
 function App() {
   const router = createBrowserRouter(
+    
     createRoutesFromElements(
+      
       <Route path="/" element={<MainLayout />} errorElement={<ErrorState />}>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
