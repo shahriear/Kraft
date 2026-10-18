@@ -14,6 +14,7 @@ import PortfolioSingle from './pages/PortfolioSingle';
 import BlogService from './pages/Blog';
 import PageNotFound from './components/Common/PageNotFound';
 import ErrorState from './components/Common/ErrorState';
+import BlogDetails from './components/Blog/BlogDetails';
 
 function App() {
   const router = createBrowserRouter(
@@ -25,6 +26,8 @@ function App() {
         <Route path="/grid" element={<Portfolio_grid />} />
         <Route path="/portfolioSingle" element={<PortfolioSingle />} />
         <Route path="/blog" element={<BlogService />} />
+        <Route path="/blog/:id" element={<BlogDetails />} />
+
         <Route path="/*" element={<PageNotFound />} />
       </Route>,
     ),
