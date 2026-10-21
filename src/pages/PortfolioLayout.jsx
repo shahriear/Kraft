@@ -1,5 +1,6 @@
 import React from 'react'
-import Portfolio from '../components/Home/Portfolio'
+import Portfolio from '../components/PortfolioLayout/Portfolio'
+// import Portfolio from '../components/Home/Portfolio'
 
 const PortfolioLayout = () => {
   return (
