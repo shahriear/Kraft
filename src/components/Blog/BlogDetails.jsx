@@ -153,11 +153,11 @@ const BlogDetails = () => {
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 pb-14 flex flex-col lg:flex-row gap-8 lg:gap-12">
       <div className="w-full lg:w-2/3 min-w-0">
-        <div className="pb-7">
+        <div className="pb-7 lg:pt-7">
           <img
             src={blogdata?.images}
             alt="donut-img"
-            className="w-full h-auto object-cover"
+            className="w-full h-auto lg:w-1/2 lg:h-2/ object-cover"
           />
         </div>
 
